@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Hephaestus Forged Rollerskates</title>
+  <link href="css/styleSheet.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fjord+One" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="corporate.html">Coporate</a></li>
+        <li><a href="contact.html">ContactUs</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Hephaestus Forged Rollerskates</h1>
+    <p>
+      Order your very own pair of Hephaestus Forged Rollerskates
+      for the Low Low cost $499.99 <small>+ shipping and handling</small>
+    </p>
+    <form id="Confirm_Order" method="get" action="form.html">
+			<input type="hidden" name="form_sent" value="1" />
+      <fieldset><!--pick payment radio box-->
+        <legend>Payment options</legend>
+        <input type="radio" name="payment" id="debit" value="debit"/>
+        <label for="debit"> Debit</label>
+        <input type="radio" name="payment" id="cash" value="cash"/>
+        <label for="cash">Cash</label>
+        <input type="radio" name="payment" id="credit" value="credit" />
+        <label for="credit">Credit</label>
+      </fieldset>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div><!-- set up text boxes for information-->
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname"  >
+        </div>
+        <div>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname">
+        </div>
+        <div>
+          <label for="address">Address Line 1</label>
+          <input id="address" type="text" name="address"  />
+        </div>
+        <div>
+          <label for="address2">Address Line 2</label>
+          <input id="address2" type="text" name="address2" />
+        </div>
+        <div><!--setup drop boxes for provinces-->
+          <label for="province">Province</label>
+          <select id="province" name="province">
+            <option value="choose">choose…</option>
+            <option value="AB">Alberta</option>
+            <option value="BC">British Colombia</option>
+            <option value="ON">Ontario</option>
+            <option value="MB">Manitoba</option>
+            <option value="NB">New Brunswick</option>
+            <option value="NL">Newfoundland</option>
+            <option value="NT">Northwest Territories</option>
+            <option value="NS">Nova Scotia</option>
+            <option value="NV">Nunavut</option>
+            <option value="PE">Prince Edward Island</option>
+            <option value="PQ">Québec</option>
+            <option value="SK">Saskatchewan</option>
+            <option value="YK">Yukon Territory</option>
+          </select>
+        </div>
+        <div><!--setup text boxes-->
+          <label for="phone">Phone</label>
+          <input id="phone" type="tel" name="phone" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" />
+        </div>
+      </fieldset><!--make submit button-->
+      <input id="submit" type="submit" value="Place Order">
+
+    </form>
+  </main>
+  <footer>
+    <div id="company3"><small>Hehaestus Forged Rollerskates Inc.</small></div>
+  </footer>
+
+</body>
+</html>

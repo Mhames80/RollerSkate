@@ -1,0 +1,246 @@
+
+html{
+  font-family: 'Fjord One', serif;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  /* back up if background image dosen't loads */
+  color: black;
+  background-color: white;
+  /* added padding so words won't go to end of page, will make easier to read */
+  padding: 0px;
+  margin:0px;
+
+  background-size:1900px 1400px;
+  background-repeat: no-repeat;
+  background-image: url("../images/forge.jpg")
+
+
+}
+body{
+  position: relative;
+  top:100px;
+  left:400px;
+  width: 800px;
+  height:900px;
+
+}
+h1{
+  position: relative;
+  font-size: 350%;
+  font-weight: 800;
+  top:50px;
+  left:150px;
+  color: yellow;
+  text-transform: uppercase;
+}
+img{
+  border: solid;
+  border-radius: 45px;
+  padding: 15px;
+  background-color: cyan;
+  width: 500px;
+  height: auto;
+
+
+  position: relative;
+  top:50px;
+  left:150px;
+}
+p{
+  font-size: 200%;
+  font-weight: 500;
+  color:black;
+  position: relative;
+  top:80px;
+  left:100px;
+}
+p a{
+  position: relative;
+  top:-900px;
+  left:550px;
+  background-color: green;
+  display: block;
+  font-size: 100%;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: yellow;
+  -webkit-border-radius: 10px;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+ul li{
+  position: relative;
+  top: -100px;
+  left: -400px;
+  float: left;
+  font-size: 200%;
+  list-style-type: none;
+  margin:10px;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+  word-spacing: 10px;
+
+}
+a:hover{
+  text-decoration: underline;
+  color:yellow;
+}
+
+div a {
+  position: relative;
+  top:-60px;
+  left:200px;
+  background-color: green;
+  display: block;
+  font-size: 100%;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: yellow;
+  display: block;
+  font-size: 100%;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: yellow;
+  -webkit-border-radius: 10px;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+div p{
+  font-size: 150%;
+  font-weight: 500;
+}
+form{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top:100px;
+  left:100px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  font-size: 150%;
+  line-height: 150%;
+}
+#submit{
+
+  position: relative;
+  top:50px;
+  background-color: green;
+  display: block;
+  font-size: 50%;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: yellow;
+  -webkit-border-radius: 10px;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+
+}
+footer{
+  width: auto;
+  height: auto;
+  position: relative;
+  top:-20px;
+  left:1000px;
+  color:lightblue;
+  font-size: 120%;
+}
+#beginning{
+  position: relative;
+  top: -50px
+}
+div img{
+  position: relative;
+  left: 90px;
+  width: 800px;
+  height: auto;
+}
+#company{
+  position: relative;
+  top:100px;
+  margin: 20px;
+}
+#company1{
+  position: relative;
+  top:50px;
+  margin: 20px;
+}
+#company2{
+  position: relative;
+  top:-50px;
+  margin: 20px;
+}
+#company3{
+  position: relative;
+  top: 150px;
+  margin: 20px;
+}
+#nowyours a{
+  width: 100px;
+  height: auto;
+  position: relative;
+  top: -20px;
+  left: 400px;
+  font-size: 60%;
+}
+h2{
+  position: relative;
+  top:80px;
+  left:250px;
+  font-size: 250%;
+  color: blue;
+}
+#map a{
+  position: relative;
+  top: 100px;
+  width: 110px;
+  height: 20px;
+  position: relative;
+  top: -20px;
+  left: 500px;
+  font-size: 100%;
+}
+#location p{
+  position: relative;
+  left:150px;
+}
+#customer p{
+  position: relative;
+  left:150px;
+}
+#Gratz{
+  width: 1000px;
+  height:300px;
+  background-color: black;
+}
+#Gratz p{
+  position: relative;
+  left: 0px;
+  color: crimson;
+  text-align: center;
+}
+
+@keyframes glowing {
+  0% { background-color: yellow; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: crimson; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: yellow; box-shadow: 0 0 3px #B20000; }
+}
